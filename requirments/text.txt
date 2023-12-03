@@ -1,0 +1,36 @@
+1. This is a simple ecommerce web application
+2. website Name LunaBee
+3. This is a laravel web application
+4. Three Type Role Here Admin,Customer,Empolyee
+5. Admin can create,delete,edit,update Products,
+6. Admin can create,delete,edit,update Category and subcategory
+7. Admin can create,delete,edit,update Empolyee 
+8. Admin can create,delete,edit,update Size
+9. Admin can create,delete,edit,update Discount pages
+10. Admin can create,delete,edit,update Coupon Code'
+11. Admin can delete Order'simple
+12. Admin can create,delete,edit,update User
+14. Admin can see Total Earning, Total order, total Empolyee, Montly order, Today Order, Total Benifit
+15. Customer Can Buy Products,
+16. Customer can Carts Products,
+17. Customer can Romoves Cart Products,
+18. Customer can Update Their Profiles,
+19. Customer can Place Order also complete Payment system
+20. Customer can Place review
+21. Customer Can Request For adding Stock out Products
+22. Emplyee Get Dashboard and he will get a Coupon Code
+23. Emplyee See Their Montly Income, Total Order, Today Income
+
+
+ Database schema
+ products- id,productName,size_id,category_id,subcategory_id,images_id,shortDetails, description,quantity,sprice,pprice,discount,
+ user - id,name,img,phone,email,vio,city,country,presentAddress, permanentAddress,totalOrder,orderDetails, id,productName,size,quantity,sprice,pprice,discount,coupon_id,customerName,city,country,phonenumber,email,address,paymentMethod,totalPrice
+ couponCode - id,code,employee_id,discount
+ review- user_id,id,reviews,
+ discountPage- id,img
+ category- id, name, created_at,updated_at,icons
+ subcategory - category_id, id, name, created_at,updated_at
+ Continue Adding New Features
+
+
+
