@@ -31,7 +31,7 @@ return new class extends Migration
             $table->foreign('subcategory_id')->references('id')->on('subcategories')->onDelete("restrict");
 
             // Change onDelete("restrict") to onDelete("cascade")
-            $table->foreign('size_id')->references('id')->on('sizes')->onDelete("cascade");
+            $table->foreign('size_id')->references('id')->on('sizes')->onDelete("restrict");
 
             // Keep onDelete("cascade") for images_id
             $table->foreign('images_id')->references('id')->on('images')->onDelete("cascade");
