@@ -18,13 +18,13 @@ class CategoryController extends Controller
             [
                 'id' => 1,
                 'name' => 'Sneakers',
-                'img' => 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/cat_01.jpg',
+                'img' => 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_34_a_1-570x760.jpg',
                 'items' => 19
             ],
             [
                 'id' => 2,
-                'name' => 'Blazers',
-                'img' => 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/cat_04.jpg',
+                'name' => 'Shirts',
+                'img' => 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_13_b_1-570x760.jpg',
                 'items' => 8
             ],
             [
@@ -41,7 +41,7 @@ class CategoryController extends Controller
             ],
             [
                 'id' => 5,
-                'name' => 'Tops',
+                'name' => 'T-shirts',
                 'img' => 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_21_a_1-570x760.jpg',
                 'items' => 18
             ],
@@ -71,8 +71,8 @@ class CategoryController extends Controller
             ],
             [
                 'id' => 10,
-                'name' => 'Soop',
-                'img' => 'https://minimog-4437.kxcdn.com/next/wp-content/uploads/sites/6/2022/08/product_soap_5-570x760.png',
+                'name' => 'Tops',
+                'img' => 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_39_a_1-570x760.jpg',
                 'items' => 7
             ],
             [
