@@ -58,7 +58,7 @@
 
         .swiper-button-prev {
             position: absolute;
-            left: 5%;
+            left: 2%;
             top: 45%;
             border: 1px solid #977f7f;
             padding: 30px;
@@ -67,7 +67,7 @@
 
         .swiper-button-next {
             position: absolute;
-            right: 5%;
+            right: 2%;
             top: 45%;
             border: 1px solid #977f7f;
             padding: 30px;
@@ -114,23 +114,27 @@
         @endauth
     </div>
     @endif -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Your existing script -->
     <script>
-        var swiper = new Swiper(".mySwiper", {
-            spaceBetween: 30,
-            centeredSlides: true,
-            autoplay: {
-                delay: 6000,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
+        document.addEventListener('DOMContentLoaded', function() {
+            var swiper = new Swiper(".mySwiper", {
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 6000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
         });
     </script>
 </body>

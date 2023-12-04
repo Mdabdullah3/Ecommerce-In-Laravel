@@ -1,6 +1,6 @@
 <div>
     <div class="bg-[#DA3F3F] py-2">
-        <h1 class="text-md tracking-wider capitalize text-center text-white">Free Delivery on orders over $200. Don’t miss discount.</h1>
+        <h1 class="text-md tracking-wider capitalize text-center text-white">Free Delivery on orders over $200. Don’t miss discount. <span><i class="fa-regular fa-heart"></i></span></h1>
     </div>
     <div class="w-10/12 mx-auto my-6">
         <div class="flex justify-between items-center">
@@ -11,7 +11,7 @@
                 <li>
                     Home
                 </li>
-                <li class="relative group">
+                <li class="relative group z-10">
                     <span class="cursor-pointer">
                         Shop
                     </span>
