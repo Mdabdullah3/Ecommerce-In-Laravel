@@ -22,7 +22,9 @@ class ProductController extends Controller
                 'category' => 'Men',
                 'subcategory' => 'jackets',
                 'image' => ['https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_15_a_1-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_15_a_6-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_15_a_4-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_15_b_1-570x760.jpg'],
-                'size' => ['M', 'L', "XL", "2xl"]
+                'size' => ['M', 'L', "XL", "2xl"],
+                'discount' => 20
+
             ],
             [
                 'id' => 2,
@@ -48,7 +50,9 @@ class ProductController extends Controller
                 'category' => 'Women',
                 'subcategory' => 'Tops',
                 'image' => ['https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_17_b_1-570x760.jpeg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_17_a_1-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_17_a_2-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_17_b_2-570x760.jpeg'],
-                'size' => ['M', 'L', "XL", "2xl"]
+                'size' => ['M', 'L', "XL", "2xl"],
+                'discount' => 21,
+
             ],
             [
                 'id' => 4,
@@ -74,7 +78,9 @@ class ProductController extends Controller
                 'category' => 'Women',
                 'subcategory' => 'Begs',
                 'image' => ['https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_16_a_1-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_16_a_4-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_16_a_2-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_16_b_1-570x760.jpg'],
-                'size' => ['M', 'L']
+                'size' => ['M', 'L'],
+                'discount' => 31
+
             ],
             [
                 'id' => 6,
@@ -87,7 +93,9 @@ class ProductController extends Controller
                 'category' => 'Mens',
                 'subcategory' => 'Shirts',
                 'image' => ['https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_13_c_1-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_13_c_5-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_13_c_3-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_13_a_1-570x760.jpg'],
-                'size' => ['M', 'L', "XL", "2XL"]
+                'size' => ['M', 'L', "XL", "2XL"],
+                'discount' => 15
+
             ],
             [
                 'id' => 7,
@@ -138,7 +146,9 @@ class ProductController extends Controller
                 'category' => 'Women',
                 'subcategory' => 'Shoes',
                 'image' => ['https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_37_b_1-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_37_b_2-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_37_c_3-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_37_c_1-570x760.jpg'],
-                'size' => ['35', '36', "38", "40"]
+                'size' => ['35', '36', "38", "40"],
+                'discount' => 21
+
             ],
             [
                 'id' => 11,
@@ -151,6 +161,8 @@ class ProductController extends Controller
                 'category' => 'Mens',
                 'subcategory' => 'Face Mask',
                 'image' => ['https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_print_04_a-570x760.png', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_print_19-570x760.png', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_print_19_a-570x760.png', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_print_04-570x760.png'],
+                'discount' => 19
+
             ],
             [
                 'id' => 12,
@@ -188,7 +200,9 @@ class ProductController extends Controller
                 'category' => 'Men',
                 'subcategory' => 'jackets',
                 'image' => ['https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_01_1-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_01_4-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_01_3-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_01_5-570x760.jpg'],
-                'size' => ['M', 'L', "XL", "2xl"]
+                'size' => ['M', 'L', "XL", "2xl"],
+                'discount' => 24
+
             ],
             [
                 'id' => 15,
@@ -227,7 +241,9 @@ class ProductController extends Controller
                 'category' => 'Women',
                 'subcategory' => 'Begs',
                 'image' => ['https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_16_a_1-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_16_a_4-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_16_a_2-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_16_b_1-570x760.jpg'],
-                'size' => ['M', 'L']
+                'size' => ['M', 'L'],
+                'discount' => 14
+
             ],
             [
                 'id' => 18,
@@ -253,7 +269,9 @@ class ProductController extends Controller
                 'category' => 'Mens',
                 'subcategory' => 'Pants',
                 'image' => ['https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_35_b_1-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_35_b_4-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_35_a_1-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_35_a_2-570x760.jpg'],
-                'size' => ['M', 'L', "XL", "2XL"]
+                'size' => ['M', 'L', "XL", "2XL"],
+                'discount' => 6
+
             ],
             [
                 'id' => 20,
@@ -266,7 +284,9 @@ class ProductController extends Controller
                 'category' => 'Mens',
                 'subcategory' => 'Sneakers',
                 'image' => ['https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_34_a_1-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_34_a_2-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_34_a_4-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_34_b_2-570x760.jpg'],
-                'size' => ['35', '36', "38", "40"]
+                'size' => ['35', '36', "38", "40"],
+                'discount' => 17
+
             ],
             [
                 'id' => 21,
@@ -291,7 +311,9 @@ class ProductController extends Controller
                 'category' => 'Women',
                 'subcategory' => 'Shoes',
                 'image' => ['https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_37_b_1-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_37_b_2-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_37_c_3-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_37_c_1-570x760.jpg'],
-                'size' => ['35', '36', "38", "40"]
+                'size' => ['35', '36', "38", "40"],
+                'discount' => 16
+
             ],
             [
                 'id' => 23,
@@ -316,6 +338,7 @@ class ProductController extends Controller
                 'category' => 'Mens',
                 'subcategory' => 'Watch',
                 'image' => ['https://minimog-4437.kxcdn.com/wp-content/uploads/2022/01/product_watch_02-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2022/01/product_watch_06-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2022/01/product_watch_01-570x760.jpg', 'https://minimog-4437.kxcdn.com/wp-content/uploads/2022/01/product_watch_01-570x760.jpg'],
+                'discount' => 10
             ],
         ];
     }
