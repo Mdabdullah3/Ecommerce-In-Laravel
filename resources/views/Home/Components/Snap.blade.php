@@ -23,8 +23,10 @@
     ];
 @endphp
 
-<div class="my-10">
-    <h1 class="text-xl tracking-widest capitalize text-center my-16 font-semibold">As styled by you @Luna Bee</h1>
+<div class="mt-20">
+    <h1 class="text-xl tracking-widest capitalize text-center my-10 font-semibold">As styled by you <span
+            class="text-[#CC8119]">@Luna
+            Bee</span></h1>
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 w-10/12 mx-auto gap-4">
         @forelse ($imageData as $item)
             <div class="overflow-hidden transform transition-transform duration-300 ease-in-out hover:scale-110">

@@ -11,7 +11,7 @@
             </h1>
             <p class="text-sm tracking-wider text-gray-600">Until 01/01/2024. Use code FESTIVE at checkout</p>
             <button
-                class="mt-6 px-10 py-3 text-md font-semibold tracking-widest border border-black rounded-full hover:bg-transparent bg-black hover:text-black text-white transition duration-300">Shop
+                class="mt-8 px-10 py-3 text-md font-semibold tracking-widest border border-black rounded-full hover:bg-transparent bg-black hover:text-black text-white transition duration-300">Shop
                 Now</button>
         </div>
     </div>
