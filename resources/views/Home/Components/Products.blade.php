@@ -4,9 +4,10 @@
     <div class="w-11/12 mx-auto">
         <div class="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 mx-auto">
             @foreach ($productData as $product)
-                <div
-                    class="mb-12 mx-auto relative group overflow-hidden transition-transform duration-500 ease-in-out transform hover:scale-105">
-                    <!-- Image with smooth zoom effect -->
+                @php $index = $loop->index; @endphp
+                <div id="productContainer"
+                    class="mb-12 mx-auto relative group overflow-hidden transition-transform duration-500 ease-in-out transform hover:scale-105"
+                    style="{{ $index >= 10 ? 'display: none;' : '' }}">
                     <div
                         class="relative overflow-hidden rounded-lg group-hover:scale-110 transition-transform duration-500 ease-in-out">
                         <img class="md:w-60 md:h-72 w-40 h-40 object-cover rounded-lg transition-opacity duration-500 ease-in-out group-hover:opacity-0"
@@ -49,5 +50,43 @@
                 </div>
             @endforeach
         </div>
+        <div class="flex justify-center mb-2">
+            <button id="loadMoreBtn"
+                class="text-md tracking-widest px-10 py-3 rounded-full bg-black text-white hover:bg-transparent hover:text-black border border-black transition duration-300">Load
+                More</button>
+        </div>
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const productContainer = document.getElementById('productContainer');
+            const loadMoreBtn = document.getElementById('loadMoreBtn');
+            const products = document.querySelectorAll('.mb-12');
+
+            const productsToShow = 10;
+            let visibleProductCount = 10;
+
+            // Initial display of the first products
+            for (let i = 0; i < productsToShow; i++) {
+                if (i < products.length) {
+                    products[i].style.display = 'grid';
+                }
+            }
+
+            loadMoreBtn.addEventListener('click', function() {
+                for (let i = visibleProductCount; i < visibleProductCount + productsToShow; i++) {
+                    if (i < products.length) {
+                        products[i].style.display = 'grid';
+                    }
+                }
+
+                visibleProductCount += productsToShow;
+
+                if (visibleProductCount >= products.length) {
+                    loadMoreBtn.style.display = 'none';
+                }
+            });
+        });
+    </script>
+
+</div>
 </div>
