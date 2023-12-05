@@ -321,7 +321,7 @@ class ProductController extends Controller
     }
     public function index()
     {
-        //
+        return view('Home.Components.Products', ['productData' => $this->getProductsData()]);
     }
 
     /**

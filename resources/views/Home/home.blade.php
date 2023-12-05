@@ -100,6 +100,7 @@
     @include('layouts.navbar')
     @include('Home.Components.Banner')
     @include('Home.Components.Category')
+    @include('Home.Components.Products')
 
     <!-- @if (Route::has('login'))
     <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
