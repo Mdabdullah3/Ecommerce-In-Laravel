@@ -31,7 +31,7 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
             <div class="flex flex-wrap -mx-4">
                 <div class="w-full px-4 md:w-1/2 ">
                     <div class="sticky top-0 z-50 overflow-hidden ">
-                        <div class="relative mb-6 lg:mb-10 lg:h-2/4 ">
+                        <div class="relative mb-6 lg:mb-10 lg:h-1/4 w-11/12">
                             <img src="https://i.postimg.cc/PqYpFTfy/pexels-melvin-buezo-2529148.jpg" alt=""
                                 class="object-cover w-full lg:h-full ">
                         </div>
@@ -150,7 +150,7 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
                                     $200.00</span>
                             </h1>
                         </div>
-                        <div class="bg-[#F7F7F7] py-5 mt-5 rounded-md flex flex-col items-center justify-center w-full">
+                        <div class="bg-[#F7F7F7] py-5 mt-7 rounded-md flex flex-col items-center justify-center w-full">
                             <div>
                                 <img src="https://minimog-4437.kxcdn.com/wp-content/themes/minimog/assets/woocommerce/product-trust-badge.png"
                                     alt="">
@@ -164,14 +164,68 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
             </div>
         </div>
     </section>
-    <section class="max-w-7xl mx-auto mt-20">
+    <section class="max-w-7xl mx-auto mt-7">
         <div>
             <div>
-                <h1 class="text-lg tracking-wider font-semibold">Product Details</h1>
+                <h1 class="text-lg tracking-wider font-semibold mb-4">Product Details</h1>
             </div>
+            <hr>
+        </div>
+        <div class="mt-10">
+            <h1 class="text-lg tracking-widest font-semibold">
+                The Iconic Silhouette
+            </h1>
+            <p class="mt-2 tracking-wider leading-snug text-[#747474]"> He garments labelled as Committed are products
+                that have been
+                produced using sustainable fibers or
+                processes, reducing their environmental impact. Mango’s goal is to support the implementation of
+                practices more committed to the environment, and therefore increase the number of sustainable garments
+                in the collection. </p>
+            <div class="md:flex  gap-10 items-center my-7">
+                <img src="https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_15_b_4-370x494.jpg"
+                    alt="">
+                <img src="https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_15_b_3-370x494.jpg"
+                    alt="">
+                <img src="https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_15_b_2-370x494.jpg"
+                    alt="">
+            </div>
+        </div>
+        <hr>
+        <div class="md:flex gap-20 mt-6">
+            <div>
+                <h1 class="font-semibold tracking-wider">Wearing</h1>
+                <p class="text-[#747474] tracking-wider mt-1"> Model is 1.84 M wearing All Size Available
+                </p>
+            </div>
+            <div>
+                <h1 class="font-semibold tracking-wider">
+                    Washing Instructions
+                </h1>
+                <img class="my-2"
+                    src="https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/washing-instruction.png"
+                    alt="">
+                <p class="text-[#747474] tracking-wider mt-1">Machine wash, no ironing, don’t dry clean, don’t tumble
+                    dry </p>
+            </div>
+            <div>
+                <h1 class="font-semibold tracking-wider">
+                    Composition
+                </h1>
+                <p class="text-[#747474] tracking-wider mt-1">
+                    . Outer: Polyamide 30%
+                </p>
+                <p class="text-[#747474] tracking-wider mt-1">
 
+                    . Lining: Polyester 70%
+                </p>
+            </div>
         </div>
     </section>
+    <div class="mt-14">
+        <h1 class="text-center text-xl tracking-widest mb-12 bg-[#FCF4E9] text-[#CC8119] py-4 font-bold">Related
+            products
+        </h1>
+    </div>
     @include('layouts.footer')
 
 </body>
