@@ -11,6 +11,9 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::get('/', [HomeController::class, 'index']);
+Route::get('/products', function () {
+    return view('Products.ProductDetails');
+});
 Route::get('/categories', [CategoryController::class, 'index']);
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

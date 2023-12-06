@@ -5,8 +5,9 @@
                 <div class="w-full px-4 mb-11 md:w-1/2 lg:w-4/12 lg:mb-0">
                     <a href="#" class="inline-block mb-4 text-xl font-bold tracking-widest text-black">About
                         Company</a>
-                    <p class="text-base font-normal leading-6 text-black lg:w-64">
-                        Lorem ipsum dor amet Lorem ipsum dor amet Lorem ipsum dor amet Lorem ipsum dor amet</p>
+                    <p class="text-base font-normal leading-6 text-black lg:w-64 tracking-wider">
+                        Luxe, lightweight, and made with the perfect blend of cashmere and cotton, our Sonoma Pillows
+                    </p>
                     <div class="flex items-center mt-4 ">
                         <a href="#">
                             <img src="https://i.postimg.cc/g22HQhX0/70599-visa-curved-icon.png" alt=""
