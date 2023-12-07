@@ -40,8 +40,8 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
                 <!-- Email Address -->
                 <div>
                     <x-input-label for="email" :value="__('Email')" />
-                    <x-text-input id="email" placeholder="Your Email Address" class="block mt-1 w-full"
-                        type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
+                    <x-text-input id="email" placeholder="Your Email" class="block mt-1 w-full" type="email"
+                        name="email" :value="old('email')" required autofocus autocomplete="username" />
                     <x-input-error :messages="$errors->get('email')" class="mt-2" />
                 </div>
 
@@ -49,7 +49,7 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
                 <div class="mt-4">
                     <x-input-label for="password" :value="__('Password')" />
 
-                    <x-text-input id="password" class="block mt-1 w-full" type="password" placeholder="Your Password"
+                    <x-text-input id="password" class="block mt-1 w-full" type="password" placeholder="Password"
                         name="password" required autocomplete="current-password" />
 
                     <x-input-error :messages="$errors->get('password')" class="mt-2" />
