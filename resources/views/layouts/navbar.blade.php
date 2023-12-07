@@ -6,15 +6,17 @@
     <div class="w-11/12 mx-auto my-4">
         <div class="flex justify-between items-center">
             <div>
-                <h1 class="text-3xl font-semibold tracking-widest">Luna Bee.</h1>
+                <h1 class="text-3xl font-semibold tracking-widest">
+                    <a href="{{ url('/') }}">Luna Bee.</a>
+                </h1>
             </div>
             <div class=" list-none flex gap-10 tracking-widest text-lg items-center">
                 <li>
-                    Home
+                    <a href="{{ url('/') }}">Home</a>
                 </li>
                 <li class="relative group z-10">
                     <span class="cursor-pointer">
-                        Shop
+                        <a href="{{ url('/shop') }}"> Shop</a>
                     </span>
                     <div
                         class="absolute w-96 left-0 top-5 mt-2 bg-gray-900 border rounded-lg p-4 space-y-2 hidden group-hover:block transition duration-300">
@@ -34,17 +36,33 @@
                         </div>
                     </div>
                 </li>
-                <li>
+                <li class="cursor-pointer">
                     Blog
                 </li>
-                <li>
+                <li class="cursor-pointer">
                     Contact
                 </li>
             </div>
             <div class="flex gap-10 tracking-widest text-lg">
-                <h1 class="text-black"><i class="fa-solid fa-magnifying-glass"></i></h1>
-                <h1 class="text-black"><i class="fa-solid fa-cart-shopping"></i></h1>
-                <h1><a href="{{ url('login') }}"><i class="fa-solid fa-user"></i> </a></h1>
+                <h1 class="relative group">
+                    <a href="{{ url('login') }}" class="tooltip">
+                        <i class="fa-solid fa-magnifying-glass"></i> <span
+                            class="hidden group-hover:inline-block bg-black text-white text-xs rounded p-1 absolute bottom-full left-1/2 transform -translate-x-1/2">Search</span>
+                    </a>
+                </h1>
+                <h1 class="relative group">
+                    <a href="{{ url('login') }}" class="tooltip">
+                        <i class="fa-solid fa-cart-shopping"></i> <span
+                            class="hidden group-hover:inline-block bg-black text-white text-xs rounded p-1 absolute bottom-full left-1/2 transform -translate-x-1/2">Cart</span>
+                    </a>
+                </h1>
+                <h1 class="relative group">
+                    <a href="{{ url('login') }}" class="tooltip">
+                        <i class="fa-solid fa-user"></i>
+                        <span
+                            class="hidden group-hover:inline-block bg-black text-white text-xs rounded p-1 absolute bottom-full left-1/2 transform -translate-x-1/2">Login</span>
+                    </a>
+                </h1>
             </div>
         </div>
     </div>

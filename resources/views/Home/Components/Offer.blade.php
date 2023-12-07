@@ -4,7 +4,7 @@
             src="https://minimog-4437.kxcdn.com/megastore/wp-content/uploads/sites/4/2022/03/megastore_banner_04.jpg"
             alt="">
     </div>
-    <div class="bg-[#FCF4E9] text-center flex-1 h-[550px] items-center flex justify-center">
+    <div class="bg-[#F2EEE9] text-center flex-1 h-[550px] items-center flex justify-center">
         <div>
             <h1 class="text-md font-semibold uppercase tracking-widest">Sale Event</h1>
             <h1 class="text-3xl my-3 leading-snug font-bold tracking-widest">Winter Jackets <br> Limited Offer – $150

@@ -28,7 +28,7 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
     <div class="my-28">
         <h1 class="text-center text-xl tracking-wider mb-2 font-semibold">Sign Up</h1>
         <p class=" tracking-wider text-center"> Already have an account? <a class="underline text-red-500"
-                href="{{ 'login' }}">Log in</a> Here
+                href="{{ 'login' }}">Sign in</a> Here
         </p>
         <x-guest-layout>
             <form method="POST" action="{{ route('register') }}">

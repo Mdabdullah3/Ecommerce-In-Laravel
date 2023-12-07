@@ -26,7 +26,7 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 <body>
     @include('layouts.navbar')
     <div class="my-28">
-        <h1 class="text-center text-xl tracking-wider mb-2 font-semibold">Sing In</h1>
+        <h1 class="text-center text-xl tracking-wider mb-2 font-semibold">Sign In</h1>
         <p class=" tracking-wider text-center">Don't have an account yet? <a class="underline text-red-500"
                 href="{{ 'register' }}">Sign up</a> for free
         </p>
