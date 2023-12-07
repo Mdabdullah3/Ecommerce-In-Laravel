@@ -32,31 +32,31 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
                 <div class="w-full px-4 md:w-1/2 ">
                     <div class="sticky top-0 z-50 overflow-hidden ">
                         <div class="relative mb-6 lg:mb-10 lg:h-1/4 w-11/12">
-                            <img src="https://i.postimg.cc/PqYpFTfy/pexels-melvin-buezo-2529148.jpg" alt=""
-                                class="object-cover w-full lg:h-full ">
+                            <img src="https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_15_a_1-570x760.jpg"
+                                alt="" class="object-cover w-full lg:h-full ">
                         </div>
                         <div class="flex-wrap hidden md:flex ">
                             <div class="w-1/2 p-2 sm:w-1/4">
                                 <a href="#" class="block border hover:border-black">
-                                    <img src="https://i.postimg.cc/PqYpFTfy/pexels-melvin-buezo-2529148.jpg"
+                                    <img src="https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_15_a_4-570x760.jpg"
                                         alt="" class="object-cover w-full lg:h-20">
                                 </a>
                             </div>
                             <div class="w-1/2 p-2 sm:w-1/4">
                                 <a href="#" class="block border hover:border-black">
-                                    <img src="https://i.postimg.cc/PqYpFTfy/pexels-melvin-buezo-2529148.jpg"
+                                    <img src="https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_15_b_1-570x760.jpg"
                                         alt="" class="object-cover w-full lg:h-20">
                                 </a>
                             </div>
                             <div class="w-1/2 p-2 sm:w-1/4">
                                 <a href="#" class="block border hover:border-black">
-                                    <img src="https://i.postimg.cc/PqYpFTfy/pexels-melvin-buezo-2529148.jpg"
+                                    <img src="https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_15_a_2-570x760.jpg"
                                         alt="" class="object-cover w-full lg:h-20">
                                 </a>
                             </div>
                             <div class="w-1/2 p-2 sm:w-1/4">
                                 <a href="#" class="block border hover:border-black">
-                                    <img src="https://i.postimg.cc/PqYpFTfy/pexels-melvin-buezo-2529148.jpg"
+                                    <img src="https://minimog-4437.kxcdn.com/wp-content/uploads/2021/12/product_fashion_15_b_1-570x760.jpg"
                                         alt="" class="object-cover w-full lg:h-20">
                                 </a>
                             </div>

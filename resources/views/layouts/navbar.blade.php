@@ -3,7 +3,7 @@
         <h1 class="text-md tracking-wider capitalize text-center text-white">Free Delivery on orders over $200. Don’t
             miss discount. <span><i class="fa-regular fa-heart"></i></span></h1>
     </div>
-    <div class="w-10/12 mx-auto my-4">
+    <div class="w-11/12 mx-auto my-4">
         <div class="flex justify-between items-center">
             <div>
                 <h1 class="text-3xl font-semibold tracking-widest">Luna Bee.</h1>
@@ -44,7 +44,7 @@
             <div class="flex gap-10 tracking-widest text-lg">
                 <h1 class="text-black"><i class="fa-solid fa-magnifying-glass"></i></h1>
                 <h1 class="text-black"><i class="fa-solid fa-cart-shopping"></i></h1>
-                <h1><i class="fa-solid fa-user"></i></h1>
+                <h1><a href="{{ url('login') }}"><i class="fa-solid fa-user"></i> </a></h1>
             </div>
         </div>
     </div>

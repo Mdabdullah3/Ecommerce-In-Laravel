@@ -14,6 +14,9 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('/products', function () {
     return view('Products.ProductDetails');
 });
+Route::get('/shop', function () {
+    return view('Shop.Shop');
+});
 Route::get('/categories', [CategoryController::class, 'index']);
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
