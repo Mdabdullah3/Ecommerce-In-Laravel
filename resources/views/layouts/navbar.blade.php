@@ -56,13 +56,26 @@
                             class="hidden group-hover:inline-block bg-black text-white text-xs rounded p-1 absolute bottom-full left-1/2 transform -translate-x-1/2">Cart</span>
                     </a>
                 </h1>
-                <h1 class="relative group">
-                    <a href="{{ url('login') }}" class="tooltip">
-                        <i class="fa-solid fa-user"></i>
-                        <span
-                            class="hidden group-hover:inline-block bg-black text-white text-xs rounded p-1 absolute bottom-full left-1/2 transform -translate-x-1/2">Login</span>
-                    </a>
-                </h1>
+                @auth
+                    <form method="POST" action="{{ route('logout') }}">
+                        @csrf
+
+                        <x-dropdown-link :href="route('logout')"
+                            onclick="event.preventDefault();
+                                    this.closest('form').submit();">
+                            {{ __('Log Out') }}
+                        </x-dropdown-link>
+                    </form>
+                @endauth
+                @guest
+                    <h1 class="relative group">
+                        <a href="{{ url('login') }}" class="tooltip">
+                            <i class="fa-solid fa-user"></i>
+                            <span
+                                class="hidden group-hover:inline-block bg-black text-white text-xs rounded p-1 absolute bottom-full left-1/2 transform -translate-x-1/2">Login</span>
+                        </a>
+                    </h1>
+                @endguest
             </div>
         </div>
     </div>
