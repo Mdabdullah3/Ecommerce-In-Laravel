@@ -43,7 +43,7 @@
                     Contact
                 </li>
             </div>
-            <div class="flex gap-10 tracking-widest text-lg">
+            <div class="flex gap-10 tracking-widest text-lg items-center">
                 <h1 class="relative group">
                     <a href="{{ url('login') }}" class="tooltip">
                         <i class="fa-solid fa-magnifying-glass"></i> <span
